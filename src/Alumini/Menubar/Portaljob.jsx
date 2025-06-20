@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Portaljob.css';
 import axios from 'axios';
 
-const API = 'http://localhost:5000/api/jobs';
+const API = 'https://aluminiserver.onrender.com/api/jobs';
 
 const Portaljob = () => {
   const [showForm, setShowForm] = useState(false);

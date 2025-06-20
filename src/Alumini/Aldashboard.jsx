@@ -31,7 +31,7 @@ const AlDashboard = () => {
 
   const fetchStats = async (id) => {
     try {
-      const res = await axios.get(`http://localhost:5000/api/alumni/stats/${id}`);
+      const res = await axios.get(`https://aluminiserver.onrender.com/api/alumni/stats/${id}`);
       setStats(res.data);
     } catch (err) {
       console.error("Stats fetch error:", err);
@@ -40,7 +40,7 @@ const AlDashboard = () => {
 
   const fetchRequests = async (id) => {
     try {
-      const res = await axios.get(`http://localhost:5000/api/alumni/requests/${id}`);
+      const res = await axios.get(`https://aluminiserver.onrender.com/api/alumni/requests/${id}`);
       setStudentRequests(res.data);
     } catch (err) {
       console.error("Requests fetch error:", err);

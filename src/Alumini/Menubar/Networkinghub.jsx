@@ -3,7 +3,7 @@ import './Networkinghub.css';
 import axios from 'axios';
 import TopNavbar from './TopNavbar';
 
-const API = 'http://localhost:5000/api/groups';
+const API = 'https://aluminiserver.onrender.com/api/groups';
 
 const Networkinghub = () => {
   const [showAddForm, setShowAddForm] = useState(false);
