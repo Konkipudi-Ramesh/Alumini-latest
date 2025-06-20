@@ -16,7 +16,7 @@ import Networkinghub from './Alumini/Menubar/Networkinghub';
 import Portaljob from './Alumini/Menubar/Portaljob';
 import Studentdirectory from './Alumini/Menubar/Studentdirectory';
 import Reunion from './Alumini/Menubar/Reunion';
-import Studentmenu from './Student/studentmenu';
+
 import Smenubar from './Student/Smenubar';
 import Stprofil from './Student/Stprofil';
 import Sfeedback from './Student/Sfeedback';
@@ -49,7 +49,7 @@ const App = () => {
 
         
         <Route path="/studentdirectory" element={<Studentdirectory/>} />
-        <Route path="/studentmenu" element={<Studentmenu />} />
+      
         <Route path="/smenubar" element={<Smenubar />} />
         <Route path="/sfeedback" element={<Sfeedback />} />
         <Route path="/sreunion" element={<Sreunion />} />
