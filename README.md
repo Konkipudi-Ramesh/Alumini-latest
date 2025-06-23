@@ -1,12 +1,27 @@
-# React + Vite
+# 🎓 Alumni Connect Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application designed to bridge the gap between B.Tech students and their alumni, enabling knowledge sharing, mentorship, and career guidance.
 
-Currently, two official plugins are available:
+Live Link: https://aliminu-ui-j7u3.vercel.app/
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 👤 **Role-based Authentication**
+  - Separate login/signup for **Students** and **Alumni**
+- 🧭 **Student Dashboard**
+  - View alumni profiles, including domain expertise and college journey
+  - Navigation bar with collapsible sidebar
+- 🗂️ **Alumni Dashboard**
+  - Manage your profile, add suggestions, and update experiences
+- 🔍 **Networking Hub**
+  - Search and filter alumni based on branch, year, or industry
+- 📬 **Feedback & Reunion Sections**
+  - Students can send feedback or request meetings
+  - Alumni can view and respond
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js
+- **Backend/Database:** Firebase (Authentication & Firestore)
+- **Deployment:** Vercel / Netlify
+
+
